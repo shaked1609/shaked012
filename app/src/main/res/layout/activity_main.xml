@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.user.shaked012.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/Aas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="numberDecimal|numberSigned"
+            android:hint="A" />
+
+        <EditText
+            android:id="@+id/Bas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="numberDecimal|numberSigned"
+            android:hint="B" />
+
+        <EditText
+            android:id="@+id/Cas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="numberDecimal|numberSigned"
+            android:hint="C" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="385dp"
+        android:layout_height="300dp"
+        android:orientation="horizontal">
+
+        <WebView
+            android:id="@+id/shked"
+            android:layout_width="400dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/shakes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="shk"
+        android:text="Button" />
+
+</LinearLayout>
+
+
